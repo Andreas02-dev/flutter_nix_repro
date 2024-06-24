@@ -1,12 +1,13 @@
-┌─ flutternixtest_minimal/working/test is  v1.0.0+1 via  v3.2.4 via  impure (devenv-shell-env) 
+┌─ flutter_nix_repro/working/test on  main is  v1.0.0+1 via  v3.2.4 via  impure (devenv-shell-env) 
 └─> dart run build_runner doctor -v
 Building package executable... (3.7s)
 Built build_runner:build_runner.
 [INFO] Entrypoint:Generating build script...
-[INFO] Entrypoint:Generating build script completed, took 180ms
+[INFO] Entrypoint:Generating build script completed, took 183ms
 
+[WARNING] Bootstrap:
+Invalidated precompiled build script due to missing asset graph.
 [INFO] Bootstrap:Precompiling build script......
-[INFO] Bootstrap:Precompiling build script... completed, took 2.5s
+[INFO] Bootstrap:Precompiling build script... completed, took 470ms
 
-[FINE] Bootstrap:Core package locations file does not exist
 [INFO] doctor:No problems found!
