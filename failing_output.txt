@@ -1,0 +1,7 @@
+┌─ flutternixtest_minimal/failing/test is  v1.0.0+1 via  v3.4.3 via  impure (devenv-shell-env) 
+└─> dart run build_runner doctor -v
+Resolving dependencies in `/home/andreas/Downloads/flutternixtest_minimal/failing/test`... 
+Because test depends on flutter_test from sdk which doesn't exist (the Flutter SDK is not
+  available), version solving failed.
+
+Flutter users should use `flutter pub` instead of `dart pub`.
